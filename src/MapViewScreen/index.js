@@ -36,7 +36,7 @@ export default class MapViewScreen extends Component {
 
             await axios({
                 method: 'post',
-                url: API + 'latlng='+coordinate.latitude+','+coordinate.longitude+'&key=AIzaSyAAunMQx9_-Qs2I28LS51mwXAwfHpsj60E',
+                url: API + 'latlng='+coordinate.latitude+','+coordinate.longitude+'&key=API_KEY',
                 headers: {
                   'content-type': 'application/json; charset=utf-8',
                 },
